@@ -20,7 +20,7 @@ public class Main {
         boolean running = true;
         // Loop 'while' ini menjaga agar program terus berjalan sampai user memilih menu 6
         while (running) {
-            printHeader("PRODUCT SUMMARY MANAGER");
+            printHeader("MYKATALOGUE | PRODUCT SUMMARY MANAGER");
             System.out.println("1. Tambah Produk Baru");
             System.out.println("2. Lihat Katalog Produk (Terurut)");
             System.out.println("3. Cari Produk berdasarkan Kategori");
@@ -48,7 +48,7 @@ public class Main {
                     break;
                 case "6":
                     running = false;
-                    System.out.println("\nTerima kasih telah menggunakan Product Summary Manager!");
+                    System.out.println("\nTerima kasih telah menggunakan MyKatalogue!");
                     break;
                 default:
                     System.out.println("\n[ERROR] Opsi tidak valid. Silakan coba lagi.");
